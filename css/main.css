@@ -15,6 +15,7 @@ header {
     clear: both;
     content: '';
     display: table;
+    box-shadow: 0px 2px 0px #000000;
 }
 
 .menu {
