@@ -23,7 +23,7 @@ header {
     margin: 0 auto;
 }
 
-img {
+.main_logo {
     width: 120px;
     height: 80px;
     float: left;
@@ -33,6 +33,7 @@ img {
 
 nav{
     float: right;
+    box-shadow: 0px 2px 0px #000000;
 }
 
 nav ul li{
