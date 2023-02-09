@@ -5,99 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AplicacionWeb</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/865bbc5e51.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
     <header>
-        <div class="container">
-            <div class="row justify-content-between alling-items-center">
-                <div class="col-auto">
-                    <h1>Cagüa Bonga</h1>
-                </div> 
-                <div class="col-auto">
-                    <div class="avatar-container" data-target="#profileOptions" data-toggle="modal">
-                        <img src="img/logo.jpg" alt="">
-                    </div>
-                </div> 
-            </div>
-        </div>
-        <div class="modal fade profile-options-modal" id="profileOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5">Opciones</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <ul compact="profile-option-list">
-                    <li>
-                        <a href="#">Mi Carrito</a>
-                    </li>
-                    <li>
-                        <a href="#">Catalogo</a>
-                    </li>
-                    <li>
-                        <a href="#">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-danger">Cerrar Sesión</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="menu"></div>
+        <img src="img/logo.jpg" alt="">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Quienes somos?</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <main class="main">
-        <div class="container">
-            <div class="search-container">
-                <form>
-                    <input type="text" name="searchInput" id="searchInput">
-                    <button type="button" class="btn btn-primary btn-block">Buscar</button>
-                </form>
-            </div>
-            <div class="products-list-container">
-                <ul>
-                    <li>
-                        <div class="product-image">
-                            <img scr="img/TSHITR-1.jpg" alt="">
-                        </div>
-                        <div class="product-info">
-                            <div class="product-info-inner">
-                                <div class="tags">
-                                    <span>
-                                        Descuento
-                                    </span>
-                                    <span>
-                                        Envio gratis
-                                    </span>
-                                </div>
-                                <h3 class="product-name">
-                                    Camiseta Anonymous 
-                                </h3>
-                                <p class="camisa-1">
-                                    Camisa comda y 100% en algodon, con un estampado unico de una persona sin rostro en Cuba. 
-                                </p>
-                            </div>
-                            <p class="product-price">
-                                <span>$COP</span>
-                                60,000
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </main>
-    
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/popper.js"></script>
 </body>
 </html>
