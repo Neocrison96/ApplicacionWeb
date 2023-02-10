@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: cornsilk;
+    background: black;
     width: 100%;
     clear: both;
     content: '';
@@ -34,7 +34,7 @@ header {
 
 nav{
     float: right;
-    box-shadow: 0px 2px 0px #000000;
+    box-shadow: 0px 2px 0px #fdfcfc;
 }
 
 nav ul li{
@@ -50,7 +50,7 @@ nav ul li{
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ nav ul li a::before{
     display: block;
     content: '';
     width: 0%;
-    background: black;
+    background: white;
     height: 5px;
     top: 0;
     position: absolute;
