@@ -7,6 +7,7 @@
 body {
     background: whitesmoke;
     font-family: 'Gill Sans MT';
+    margin: 0;
 }
 
 header {
@@ -68,3 +69,65 @@ nav ul li a:hover::before{
     width: 100%;
 
 }
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 10),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: white;
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px,-8px);
+}
+
+.product_img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.product_p{
+    text-align: center;
+    padding-top: 0 8px;
+}
+
